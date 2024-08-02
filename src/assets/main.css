@@ -1,0 +1,54 @@
+@import "./base.css";
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background-color: var(--theme-light-blue) !important;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  min-height: 100vh;
+  background-color: var(--theme-light-blue);
+  
+  /* Title styles */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  label {
+    font-family: "Yeseva One", Merriweather, Georgia, "Times New Roman", serif;
+    color: var(--theme-primary-blue);
+  }
+
+  p, input{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: var(--theme-dark-gray);
+  }
+
+  /* Link styles */
+  a {
+    color: var(--theme-primary-blue);
+  }
+
+  /* Header and footer styles */
+  .header,
+  .footer {
+    background-color: var(--theme-primary-blue);
+    color: var(--color-text);
+  }
+
+  /* Divider styles */
+  .divider {
+    border-color: var(--theme-gray);
+  }
+}
